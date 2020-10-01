@@ -67,7 +67,7 @@ public class DoubleCLL
 	public static void printRev(DoubleCLL list)
 	{
 		Node currNode = list.tail;
-		System.out.print("LINKED LIST:");
+		System.out.print("REVERSED LINKED LIST:");
 		do
 		{
 			System.out.print(currNode.data+" ");
@@ -89,6 +89,5 @@ public class DoubleCLL
 		add(list,8,50);
 		System.out.println();
 		print(list);
-		System.out.println("Size="+list.size);
 	}
 }
